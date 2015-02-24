@@ -3,7 +3,7 @@ Created on Feb 23, 2015
 
 @author: m133293
 '''
-
+####expect results in ~250 iterations instead of 400 mentioned
 import urllib
 nothing=12345
 for i in range(1,401):
@@ -25,6 +25,3 @@ for j in range(i,401):
         print nothing
         print j
         break
-#print gh
-# #print urllib.urlopen('http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing='+str(nothing)).read()
-# #print gh
